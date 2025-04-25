@@ -9,12 +9,14 @@ export function Welcome() {
                 style={s.logo}
                 alt="Logo"
             ></Image>
-            <Text style={s.title}>Boas vindas ao Nearby!</Text>
+            <View style={s.container}>
+                <Text style={s.title}>Boas vindas ao Nearby!</Text>
 
-            <Text style={s.subtitle}>
-                Tenha cupons de vantagem para usar em {"\n"} seus
-                estabelecimentos favoritos.
-            </Text>
+                <Text style={s.subtitle}>
+                    Tenha cupons de vantagem para usar em {"\n"} seus
+                    estabelecimentos favoritos.
+                </Text>
+            </View>
         </View>
     );
 }
